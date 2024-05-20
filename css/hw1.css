@@ -1,0 +1,94 @@
+/*
+File: hw1.html
+GUI Assignment: Styling the first web page
+Rahul Pingali, UMass Lowell Computer Science, rahul_pingali@student.uml.edu
+PART 2: First Web Page. 
+What it does: This is the css page that compliments and styles the html page for the NBA page.
+my goal here was to make the page look more appealing and easier to read by using different colors and fonts and center
+the text and images on the page. I also added a border around the images to make them pop out more.
+I also added a border around the table to make it easier to read and added a background color to the page to make it more appealing.
+Copyright (c) 2024 by Rahul. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by RP on May 20, 2024 at 6:14 PM
+*/
+
+
+body {
+    background-color: #8484da; /* Set the background color for the page */
+}
+
+p { /* Style all of the paragraph elements */
+    color: azure;
+    font-family: sans-serif
+}
+
+.nba-table { /* Style the table containing the NBA team data */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.table { /* Style the table elements to make sure the table columns are wide and text is very bright to
+    contrast the background color */
+    border-collapse: collapse;
+    width: 80%; 
+    color: azure;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.table th, .table td { /* Style the table headers and data cells and make the borders pop out more */
+    border: 2px solid #585555; 
+    padding: 10px;
+}
+
+.nuggs-link { /* Style the link to the Nuggets website to center it*/
+    justify-content: center;
+    display: flex;
+}
+
+.champs, .warriors { /* Style the images of the NBA champions and the Golden State Warriors to center them */ 
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #585555; 
+    border-radius: 300px; 
+}
+
+.warriors-image { /* Style the image of the Golden State Warriors to display it below the nuggets image */
+    margin-top: 50px;
+}
+
+.intro { /* Style the introduction text to center it and make it bold for the viewer*/
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Description {
+    text-align: center; /* Centers text inside .Description horizontally */
+}
+
+p {
+    text-align: center;
+}
+
+.Reading {
+    text-align: center;
+}
+
+.overview {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.description-link {
+    display: inline-block; /* Ensures the link respects the text-align property */
+    text-align: center; /* Centers the link text */
+}
