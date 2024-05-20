@@ -1,0 +1,78 @@
+body {
+    background-color: #8484da; /* Set the desired background color for the page */
+}
+
+p {
+    color: azure;
+    font-family: sans-serif
+}
+
+.nba-table {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%; 
+    color: azure;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.table th, .table td {
+    border: 2px solid #585555; 
+    padding: 10px;
+}
+
+.nuggs-link {
+    justify-content: center;
+    display: flex;
+}
+
+.champs, .warriors {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #585555; 
+    border-radius: 300px; 
+}
+
+.warriors-image {
+    margin-top: 50px;
+}
+
+.intro {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Description {
+    text-align: center; /* Centers text inside .Description horizontally */
+}
+
+p {
+    text-align: center;
+}
+
+.Reading {
+    text-align: center;
+}
+
+.overview {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.description-link {
+    display: inline-block; /* Ensures the link respects the text-align property */
+    text-align: center; /* Centers the link text */
+}
